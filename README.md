@@ -1,62 +1,61 @@
-<!-- ======================================================= -->
-<!-- HEADER: ANIMASI GRADIENT BERJALAN 360° & TEKS GRADIENT  -->
-<!-- ======================================================= -->
+<!-- ========================================== -->
+<!-- HERO BANNER: NEON GRADIENT & TYPING EFFECT -->
+<!-- ========================================== -->
 <div align="center">
-  <svg width="100%" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <!-- Gradient Merah, Oranye, Kuning -->
-      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#ff0000" />
-        <stop offset="50%" stop-color="#ffa500" />
-        <stop offset="100%" stop-color="#ffff00" />
-        <!-- Animasi rotasi 360 derajat -->
-        <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="5s" repeatCount="indefinite" />
-      </linearGradient>
-      
-      <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#1a0b00" />
-        <stop offset="100%" stop-color="#0d1117" />
-      </radialGradient>
-    </defs>
-
-    <!-- Background Gelap -->
-    <rect width="100%" height="100%" fill="url(#bgGlow)" rx="15" />
-    
-    <!-- Garis UI ala GitSkins -->
-    <text x="20" y="30" fill="#555" font-family="monospace" font-size="12">luzxy49999ho@github ~ $ ./maintainer.sh</text>
-    <line x1="20" y1="40" x2="780" y2="40" stroke="#333" stroke-width="1" stroke-dasharray="5,5" />
-
-    <!-- Judul Utama dengan Teks Gradient -->
-    <text x="50%" y="55%" text-anchor="middle" fill="url(#grad)" font-size="70" font-weight="bold" font-family="Courier, monospace" letter-spacing="5">LUXXYHub</text>
-    
-    <!-- Subteks -->
-    <text x="50%" y="70%" text-anchor="middle" fill="#8b949e" font-size="16" font-family="sans-serif">Product-minded developer</text>
-  </svg>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,20&height=200&section=header&text=LUXXYHub&fontSize=80&fontColor=ffffff&animation=twinkling&desc=Product-minded%20Developer&descAlignY=65" width="100%" />
 </div>
 
-<!-- ======================================================= -->
-<!-- DASHBOARD ALa GITSKINS (MURNI HTML/TABEL)               -->
-<!-- ======================================================= -->
 <div align="center">
-  <table style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 10px; width: 100%; max-width: 800px; padding: 20px; font-family: monospace;">
+  <a href="https://github.com/luxxy49999ho">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F59E0B&center=true&vCenter=true&width=600&lines=Building+and+sharing+work+in+public;DON'T+SPEAK+A+GAMBLING;Lua+Scripting+%7C+Open+Source" alt="Typing SVG" />
+  </a>
+</div>
+
+<!-- ========================================== -->
+<!-- LIVE TERMINAL STATS (DATA REAL-TIME)       -->
+<!-- ========================================== -->
+<h2>💻 Terminal_Signal.sh</h2>
+
+<!-- Ganti "your-username" dengan luxxy49999ho -->
+<p align="center">
+  <a href="https://github.com/luxxy49999ho">
+    <img src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=luxxy49999ho&theme=tokyonight&headerStyle=mac" width="90%" alt="Terminal Stats" />
+  </a>
+</p>
+
+<!-- ========================================== -->
+<!-- NEOFETCH PROFILE (ASCII + LIVE DATA)       -->
+<!-- ========================================== -->
+<h2>🖥️ System_Info</h2>
+
+<p align="center">
+  <a href="https://github.com/luxxy49999ho">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://neofetch-profile.vercel.app/api?username=luxxy49999ho&theme=github-dark" />
+      <img alt="Neofetch Profile" src="https://neofetch-profile.vercel.app/api?username=luxxy49999ho&theme=github-light" width="90%" />
+    </picture>
+  </a>
+</p>
+
+<!-- ========================================== -->
+<!-- METRIK REAL-TIME (BINTANG, FOLLOWERS, DLL) -->
+<!-- ========================================== -->
+<h2>📊 Live_Metrics</h2>
+
+<div align="center">
+  <table>
     <tr>
-      <td width="40%" valign="top" style="border-right: 1px solid #30363d; padding-right: 20px;">
-        <font color="#8b949e" size="2">VISUAL MAP</font><br><br>
-        <div align="center">
-          <font color="#58a6ff" size="6">█████<br>██<br>██<br>█████</font><br>
-          <font color="#58a6ff" size="4">█████████████</font>
-        </div>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/github/followers/luxxy49999ho?label=Followers&style=for-the-badge&color=ff69b4&labelColor=0d1117" alt="Followers" />
       </td>
-      <td width="60%" valign="top" style="padding-left: 20px;">
-        <font color="#8b949e" size="2">SYSTEM INFO</font><br><br>
-        <font color="#8b949e" size="2">Subject..........</font> <font color="#ffffff" size="2">LUXXYHub</font><br>
-        <font color="#8b949e" size="2">Handle...........</font> <font color="#58a6ff" size="2">@luzxy49999ho</font><br>
-        <font color="#8b949e" size="2">Role.............</font> <font color="#ffffff" size="2">DON'T SPEAK A GAMBLING</font><br>
-        <font color="#8b949e" size="2">Status...........</font> <font color="#ffffff" size="2">Building | Learning | Shipping</font><br>
-        <font color="#8b949e" size="2">Languages........</font> <font color="#ffffff" size="2">Lua</font><br>
-        <font color="#8b949e" size="2">Repositories.....</font> <font color="#ffffff" size="2">2</font><br>
-        <font color="#8b949e" size="2">Contributions....</font> <font color="#ffffff" size="2">27</font><br>
-        <font color="#8b949e" size="2">Stars............</font> <font color="#ffffff" size="2">0</font><br>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/github/stars/luxxy49999ho?label=Stars&style=for-the-badge&color=yellow&labelColor=0d1117" alt="Stars" />
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/github/repos/luxxy49999ho?label=Repos&style=for-the-badge&color=blue&labelColor=0d1117" alt="Repos" />
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/github/last-commit/luxxy49999ho/Luxxy49999ho?label=Last%20Commit&style=for-the-badge&color=green&labelColor=0d1117" alt="Last Commit" />
       </td>
     </tr>
   </table>
@@ -64,86 +63,50 @@
 
 <br/>
 
-<!-- ======================================================= -->
-<!-- WHY I BUILD IN PUBLIC                                   -->
-<!-- ======================================================= -->
-<h2>Why I build in public</h2>
+<div align="center">
+  <!-- GitHub Readme Stats (Real-time) -->
+  <img src="https://github-readme-stats.vercel.app/api?username=luxxy49999ho&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F59E0B&icon_color=F59E0B" width="48%" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luxxy49999ho&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F59E0B" width="48%" alt="Top Languages" />
+</div>
 
-<table style="width: 100%; border-collapse: collapse; text-align: center;">
-  <tr>
-    <td style="border: 1px solid #30363d; padding: 20px; width: 33%;">
-      <h3>Focus</h3>
-      <code>Lua</code>
-    </td>
-    <td style="border: 1px solid #30363d; padding: 20px; width: 33%;">
-      <h3>Proof</h3>
-      <p>2 public<br>repositories ·<br>0 stars</p>
-    </td>
-    <td style="border: 1px solid #30363d; padding: 20px; width: 33%;">
-      <h3>Contribution</h3>
-      <p>26 contributions<br>· 6 active days</p>
-    </td>
-  </tr>
-</table>
+<br/>
 
 <div align="center">
-  <p><em>DON'T SPEAK A GAMBLING</em></p>
+  <!-- GitHub Readme Streak Stats -->
+  <img src="https://streak-stats.demolab.com?user=luxxy49999ho&theme=tokyonight&hide_border=true&background=0D1117&ring=F59E0B&fire=F59E0B&currStreakNum=ffffff" width="100%" alt="Streak Stats" />
+</div>
+
+<!-- ========================================== -->
+<!-- PROJECTS & REPOS                           -->
+<!-- ========================================== -->
+<h2>📂 Selected_Work</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <a href="https://github.com/luxxy49999ho/SCRIPT-OF-LUXXY">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luxxy49999ho&repo=SCRIPT-OF-LUXXY&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F59E0B" alt="SCRIPT-OF-LUXXY" />
+        </a>
+      </td>
+      <td width="50%">
+        <a href="https://github.com/luxxy49999ho/Luxxy49999ho">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=luxxy49999ho&repo=Luxxy49999ho&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F59E0B" alt="Luxxy49999ho" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
 
-<!-- ======================================================= -->
-<!-- OPEN SOURCE TOOLBOX (TERMINAL LUA)                      -->
-<!-- ======================================================= -->
-<h2>Open-source toolbox</h2>
-
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace;">
-  <font color="#8b949e">luzxy49999ho@github ~ $ toolbox --list</font><br><br>
-  <div style="background-color: #161b22; padding: 10px; border-radius: 6px; border: 1px solid #30363d;">
-    <font color="#8b949e">luzxy49999ho@github:-$ ls skills/</font><br>
-    <span style="background-color: #21262d; color: #c9d1d9; padding: 2px 8px; border-radius: 4px; font-size: 12px;">Lua</span>
-  </div>
-</div>
-
-<br/>
-
-| **Lua** |
-| :--- |
-| <h2>100%</h2> |
-
-<br/>
-
-<!-- ======================================================= -->
-<!-- IDENTITY, WITH SIGNAL & MINI GAME HUGS                  -->
-<!-- ======================================================= -->
-<h2>Identity, with signal</h2>
-
-<table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td style="border: 1px solid #30363d; padding: 20px; width: 60%;">
-      <h3>DON'T SPEAK A GAMBLING</h3>
-      <p><b>Focus:</b> <code>Lua</code></p>
-      <p>Thoughtful collaboration, ambitious products, and useful open source.</p>
-    </td>
-    <td style="border: 1px solid #30363d; padding: 20px; width: 40%; background-color: #0d1117;">
-      <span style="background-color: #30363d; padding: 4px 8px; border-radius: 12px; font-size: 12px; color: white;">LIVE SIGNAL</span><br><br>
-      <b>2</b> repos<br>
-      <b>0</b> stars<br>
-      <b>26</b> contributions<br>
-      <b>0</b> followers
-    </td>
-  </tr>
-</table>
-
-<br/><br/>
-
-<!-- ======================================================= -->
-<!-- TERMINAL MINI GAME: HUGS 🫂 (BANYAK HUGS)               -->
-<!-- ======================================================= -->
-<h2>Terminal Mini-Game: Hugs Protocol</h2>
+<!-- ========================================== -->
+<!-- FOOTER: CONTACT & GAME HUGS                -->
+<!-- ========================================== -->
+<h2>🤝 Work_with_me</h2>
 
 ```bash
-luzxy49999ho@github ~ $ ./play_hugs.sh --infinite
+luxxy49999ho@github ~ $ ./play_hugs.sh --infinite
 
 [SYSTEM] Initializing Hug Protocol v3.0...
 [SYSTEM] Loading affection modules... [100%]
@@ -151,15 +114,9 @@ luzxy49999ho@github ~ $ ./play_hugs.sh --infinite
 
 > Player 1 hugs Player 2 🫂 (+10 XP)
 > Player 3 hugs Player 4 🫂 (+10 XP)
-> Player 2 hugs Player 3 🫂 (+10 XP)
-> Player 4 hugs Player 1 🫂 (+10 XP)
 
 [Incoming Transmission]
 🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂
 🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂
-🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂
-
-> WARNING: Server is overloaded with HUGS! 🤗
-> Sending hugs to all profile visitors... 
 
 [STATUS] GAME OVER. YOU ARE LOVED. ❤️
