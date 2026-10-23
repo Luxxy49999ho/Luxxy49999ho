@@ -12,52 +12,74 @@
 <br>
 
 <!-- ============================================================== -->
-<!-- 2. SYSTEM INFO (TABEL MARKDOWN YANG DIDUKUNG GITHUB)           -->
+<!-- 2. SYSTEM INFO MEWAH (AVATAR FOTO + ANIMASI TERMINAL)          -->
 <!-- ============================================================== -->
-<h2 align="center">System_Info</h2>
+<h2 align="center">⚡ System_Info</h2>
 
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <b>VISUAL_MAP.exe</b><br><br>
-      <!-- Dot Matrix Profile sederhana agar tidak error -->
-      <code>🔴 🔴 🔴 🔴 🔴</code><br>
-      <code>🔴 🟠 🟠 🟠 🔴</code><br>
-      <code>🔴 🟠 🟡 🟠 🔴</code><br>
-      <code>🔴 🟠 🟠 🟠 🔴</code><br>
-      <code>🔴 🔴 🔴 🔴 🔴</code><br>
-      <code>🟡 🟡 🟡 🟡 🟡</code><br>
-      <br>
-      <b>[STATUS: ONLINE]</b>
-    </td>
-    <td width="50%" valign="top">
-      <b>SYSTEM_INFO</b><br><br>
-      <code>Subject.......</code> <b>LUXXYHub</b><br>
-      <code>Handle........</code> <a href="https://github.com/luxxy49999ho">@luxxy49999ho</a><br>
-      <code>Role..........</code> Product-minded Dev<br>
-      <code>Status........</code> Building | Shipping<br>
-      <code>Languages.....</code> Lua (100%)<br>
-      <code>Repositories..</code> 2<br>
-      <code>Contributions.</code> 27<br>
-      <code>Stars.........</code> 0<br>
-      <code>Followers.....</code> 0
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table style="border: none;">
+    <tr>
+      <!-- BAGIAN KIRI: FOTO PROFIL KAMU (Diambil otomatis dari GitHub) -->
+      <td align="center" valign="middle" width="30%">
+        <img src="https://github.com/luxxy49999ho.png" width="180" style="border-radius: 50%; border: 3px solid #ff4500; box-shadow: 0 0 20px #ff4500;" alt="LUXXYHub Avatar" />
+        <br><br>
+        <img src="https://img.shields.io/badge/STATUS-ONLINE-00ff00?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+      </td>
+      
+      <!-- BAGIAN KANAN: ANIMASI TEKS TERMINAL MENGETIK -->
+      <td align="left" valign="middle" width="70%">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=500&color=FF8C00&vCenter=true&multiline=true&width=500&height=200&lines=%3E+Subject.......%3A+LUXXYHub;%3E+Handle........%3A+%40luxxy49999ho;%3E+Role..........%3A+Product-minded+Dev;%3E+Status........%3A+Building+%7C+Shipping;%3E+Languages.....%3A+Lua+(100%25);%3E+Repositories..%3A+2;%3E+Contributions.%3A+27;%3E+Stars.........%3A+0;%3E+Followers.....%3A+0" alt="System Info Terminal" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br><br>
 
 <!-- ============================================================== -->
-<!-- 3. MINI GAME ULAR (SNAKE) YANG BERJALAN SENDIRI                -->
+<!-- 3. MINI GAMES AUTO-PLAY (ULAR & BALOK SUSUN)                   -->
 <!-- ============================================================== -->
 <h2 align="center">🕹️ Terminal_Mini-Games [AUTO-PLAY]</h2>
-<p align="center">
-  <i>Ular di bawah ini akan memakan kotak kontribusimu secara otomatis:</i>
-</p>
 
+<!-- GAME 1: ULAR (SNAKE) -->
+<p align="center"><b>[GAME 1: SNAKE_PROTOCOL]</b></p>
 <div align="center">
-  <!-- Game Ular -->
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Game" width="100%" />
+</div>
+
+<br>
+
+<!-- GAME 2: BALOK SUSUN (TETRIS) -->
+<p align="center"><b>[GAME 2: BLOCK_STACKER.EXE]</b></p>
+<div align="center">
+  <!-- Animasi SVG murni untuk balok susun yang berjatuhan -->
+  <svg width="100%" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="150" fill="#0d1117" rx="10" stroke="#ff4500" stroke-width="2"/>
+    <text x="20" y="30" fill="#ff8c00" font-family="monospace" font-size="16" font-weight="bold">BLOCK_STACKER.EXE [AUTO_PLAY: ON]</text>
+    
+    <g transform="translate(350, 50)">
+      <!-- Balok Jatuh -->
+      <rect x="0" y="-60" width="20" height="20" fill="#ffff00" rx="2" style="filter: drop-shadow(0 0 5px #ffff00);">
+        <animate attributeName="y" values="-60;-20;20;60;100" dur="2s" repeatCount="indefinite" />
+      </rect>
+      <rect x="20" y="-60" width="20" height="20" fill="#ffff00" rx="2">
+        <animate attributeName="y" values="-60;-20;20;60;100" dur="2s" repeatCount="indefinite" />
+      </rect>
+      
+      <!-- Tumpukan Balok (Warna Merah, Oren, Kuning) -->
+      <rect x="-40" y="100" width="20" height="20" fill="#ff0000" rx="2" />
+      <rect x="-20" y="100" width="20" height="20" fill="#ff8c00" rx="2" />
+      <rect x="0" y="100" width="20" height="20" fill="#ffff00" rx="2" />
+      <rect x="20" y="100" width="20" height="20" fill="#ff0000" rx="2" />
+      <rect x="40" y="100" width="20" height="20" fill="#ff8c00" rx="2" />
+      
+      <rect x="-20" y="80" width="20" height="20" fill="#ffff00" rx="2" />
+      <rect x="0" y="80" width="20" height="20" fill="#ff0000" rx="2" />
+      <rect x="20" y="80" width="20" height="20" fill="#ff8c00" rx="2" />
+      
+      <rect x="0" y="60" width="20" height="20" fill="#ffff00" rx="2" />
+    </g>
+  </svg>
 </div>
 
 <br><br>
