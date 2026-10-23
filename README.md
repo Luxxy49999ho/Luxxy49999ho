@@ -1,12 +1,12 @@
 <!-- ============================================================== -->
-<!-- 1. BANNER GRADIENT BERJALAN 360° (MERAH, OREN, KUNING)         -->
+<!-- 1. BANNER GRADIENT 360° (MERAH, OREN, KUNING)                  -->
 <!-- ============================================================== -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,20&height=180&section=header&text=LUXXYHub&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Product-minded%20Developer&descAlignY=55&descSize=20" width="100%" />
 </div>
 
 <!-- ============================================================== -->
-<!-- 2. ANIMASI TEKS GRADIENT (TYPING EFFECT)                       -->
+<!-- 2. ANIMASI TEKS BERJALAN (TYPING EFFECT)                       -->
 <!-- ============================================================== -->
 <div align="center">
   <a href="https://github.com/luxxy49999ho">
@@ -17,7 +17,7 @@
 <br>
 
 <!-- ============================================================== -->
-<!-- 3. SYSTEM INFO & DOT-MATRIX PROFILE (ANIMASI WARNA)            -->
+<!-- 3. SYSTEM INFO & ASCII (KODE HTML MURNI YANG DIIZINKAN)        -->
 <!-- ============================================================== -->
 <div align="center">
   <table style="background-color: #0d1117; border: 1px solid #ff4500; border-radius: 10px; width: 100%; max-width: 800px; padding: 20px; font-family: 'Courier New', monospace; box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);">
@@ -25,7 +25,7 @@
       <td width="40%" valign="top" align="center" style="border-right: 1px dashed #ff8c00; padding-right: 20px;">
         <font color="#ff8c00" size="2"><b>VISUAL_MAP.exe</b></font><br><br>
         
-        <!-- DOT MATRIX PROFILE (Bentuk Wajah/Avatar dari Titik) -->
+        <!-- DOT MATRIX PROFILE -->
         <div style="line-height: 1.1; font-size: 20px; text-shadow: 0 0 5px #ff4500;">
           <span style="color:#ff0000;">● ● ● ● ●</span><br>
           <span style="color:#ff0000;">●</span> <span style="color:#ff8c00;">● ● ●</span> <span style="color:#ff0000;">●</span><br>
@@ -54,82 +54,29 @@
   </table>
 </div>
 
-<br>
+<br><br>
 
 <!-- ============================================================== -->
-<!-- 4. MINI GAME AUTO-PLAY (SNAKE & BALOK SUSUN)                   -->
+<!-- 4. MINI GAME ULAR (SNAKE) YANG BERJALAN SENDIRI                -->
 <!-- ============================================================== -->
 <h2>🕹️ Terminal_Mini-Games [AUTO-PLAY MODE]</h2>
+<p align="center">
+  <i>Ular di bawah ini akan memakan kotak kontribusimu secara otomatis (Animasi SVG Real-time):</i>
+</p>
 
-<!-- SVG Snake Game Berjalan Sendiri -->
 <div align="center">
-  <svg width="100%" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
-    <rect width="800" height="220" fill="#0d1117" rx="10" stroke="#ff4500" stroke-width="2"/>
-    <text x="20" y="30" fill="#ff8c00" font-family="monospace" font-size="16" font-weight="bold">SNAKE_GAME.EXE [AUTO_PLAY: ON]</text>
-    <text x="20" y="55" fill="#00ffcc" font-family="monospace" font-size="14">> SCORE: <tspan><animate attributeName="fill" values="#00ffcc;#ff8c00;#00ffcc" dur="2s" repeatCount="indefinite"/>100</tspan></text>
-    
-    <g transform="translate(200, 70)">
-      <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#30363d" stroke-width="1"/>
-      </pattern>
-      <rect width="400" height="120" fill="url(#grid)" stroke="#30363d" stroke-width="2"/>
-      
-      <!-- Ular (Snake) Bergerak -->
-      <rect x="40" y="40" width="18" height="18" fill="#ff0000" rx="4" style="filter: drop-shadow(0 0 5px #ff0000);">
-        <animate attributeName="x" values="40;60;80;100;120;140;160;180;180;180;160;140;120;100;80;60;40;40;40;40" dur="4s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="20" y="40" width="18" height="18" fill="#ff8c00" rx="4" style="filter: drop-shadow(0 0 5px #ff8c00);">
-        <animate attributeName="x" values="20;40;60;80;100;120;140;160;180;180;180;160;140;120;100;80;60;40;20;20" dur="4s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="0" y="40" width="18" height="18" fill="#ffff00" rx="4" style="filter: drop-shadow(0 0 5px #ffff00);">
-        <animate attributeName="x" values="0;20;40;60;80;100;120;140;160;180;180;180;160;140;120;100;80;60;40;0" dur="4s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Belokan Ular -->
-      <rect x="180" y="20" width="18" height="18" fill="#ffff00" rx="4">
-        <animate attributeName="x" values="180;180;180;180;180;180;180;180;180;180;180;180;180;180;180;180;180;180;180;180" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="40;60;80;100;100;100;100;100;100;100;80;60;40;40;40;40;40;40;40;40" dur="4s" repeatCount="indefinite"/>
-      </rect>
-      
-      <!-- Makanan (Buah) -->
-      <rect x="300" y="80" width="16" height="16" fill="#ff00ff" rx="8" style="filter: drop-shadow(0 0 8px #ff00ff);">
-        <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-  </svg>
-</div>
-<br>
-
-<!-- SVG Balok Susun (Tetris) Berjalan Sendiri -->
-<div align="center">
-  <svg width="100%" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
-    <rect width="800" height="220" fill="#0d1117" rx="10" stroke="#ff4500" stroke-width="2"/>
-    <text x="20" y="30" fill="#ff8c00" font-family="monospace" font-size="16" font-weight="bold">TETRIS_BLOCKS.EXE [AUTO_PLAY: ON]</text>
-    <text x="20" y="55" fill="#00ffcc" font-family="monospace" font-size="14">> LEVEL: <tspan><animate attributeName="fill" values="#00ffcc;#ff8c00;#00ffcc" dur="2s" repeatCount="indefinite"/>99</tspan></text>
-    
-    <g transform="translate(300, 40)">
-      <!-- Balok Jatuh -->
-      <rect x="0" y="-60" width="20" height="20" fill="#ffff00" rx="2" style="filter: drop-shadow(0 0 5px #ffff00);">
-        <animate attributeName="y" values="-60;-20;20;60;100;140;180" dur="3s" repeatCount="indefinite" />
-      </rect>
-      <rect x="20" y="-60" width="20" height="20" fill="#ffff00" rx="2">
-        <animate attributeName="y" values="-60;-20;20;60;100;140;180" dur="3s" repeatCount="indefinite" />
-      </rect>
-      
-      <!-- Tumpukan Balok Bawah -->
-      <rect x="0" y="140" width="20" height="20" fill="#ff0000" rx="2" />
-      <rect x="20" y="140" width="20" height="20" fill="#ff8c00" rx="2" />
-      <rect x="40" y="140" width="20" height="20" fill="#ffff00" rx="2" />
-      <rect x="60" y="140" width="20" height="20" fill="#ff0000" rx="2" />
-      <rect x="80" y="140" width="20" height="20" fill="#ff8c00" rx="2" />
-      
-      <rect x="20" y="120" width="20" height="20" fill="#ffff00" rx="2" />
-      <rect x="40" y="120" width="20" height="20" fill="#ff0000" rx="2" />
-      <rect x="60" y="120" width="20" height="20" fill="#ff8c00" rx="2" />
-    </g>
-  </svg>
+  <!-- Ini adalah API pembuat game ular sungguhan yang mengambil data kontribusimu -->
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Game" width="100%" />
 </div>
 
 <br>
+
+<!-- Jika gambar ular di atas kosong, gunakan alternatif ini: -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=luxxy49999ho&bg_color=0d1117&color=ff8c00&line=ff0000&point=ffff00&area=true&hide_border=true" width="100%" alt="Contribution Graph" />
+</div>
+
+<br><br>
 
 <!-- ============================================================== -->
 <!-- 5. LIVE STATS (REAL-TIME METRICS)                              -->
