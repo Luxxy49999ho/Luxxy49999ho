@@ -1,109 +1,165 @@
+<!-- ======================================================= -->
+<!-- HEADER: ANIMASI GRADIENT BERJALAN 360° & TEKS GRADIENT  -->
+<!-- ======================================================= -->
 <div align="center">
+  <svg width="100%" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Gradient Merah, Oranye, Kuning -->
+      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ff0000" />
+        <stop offset="50%" stop-color="#ffa500" />
+        <stop offset="100%" stop-color="#ffff00" />
+        <!-- Animasi rotasi 360 derajat -->
+        <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="5s" repeatCount="indefinite" />
+      </linearGradient>
+      
+      <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#1a0b00" />
+        <stop offset="100%" stop-color="#0d1117" />
+      </radialGradient>
+    </defs>
 
-<table width="100%">
-<tr>
-<td width="64%" valign="middle">
-<p><sub>RECRUITER SIGNAL BRIEF · luxxy49999ho</sub></p>
-<h1>LUXXYHub</h1>
-<h2>Product-minded developer</h2>
-<p>DON'T SPEAK A GAMBLING</p>
-<p><strong>● Building and sharing work in public</strong></p>
+    <!-- Background Gelap -->
+    <rect width="100%" height="100%" fill="url(#bgGlow)" rx="15" />
+    
+    <!-- Garis UI ala GitSkins -->
+    <text x="20" y="30" fill="#555" font-family="monospace" font-size="12">luzxy49999ho@github ~ $ ./maintainer.sh</text>
+    <line x1="20" y1="40" x2="780" y2="40" stroke="#333" stroke-width="1" stroke-dasharray="5,5" />
 
-<p><a href="https://github.com/luxxy49999ho">GitHub</a></p>
-</td>
-<td width="36%" valign="middle" align="center">
-<img src="https://avatars.githubusercontent.com/u/341011506?v=4" width="180" alt="LUXXYHub GitHub avatar" />
-</td>
-</tr>
-</table>
+    <!-- Judul Utama dengan Teks Gradient -->
+    <text x="50%" y="55%" text-anchor="middle" fill="url(#grad)" font-size="70" font-weight="bold" font-family="Courier, monospace" letter-spacing="5">LUXXYHub</text>
+    
+    <!-- Subteks -->
+    <text x="50%" y="70%" text-anchor="middle" fill="#8b949e" font-size="16" font-family="sans-serif">Product-minded developer</text>
+  </svg>
 </div>
 
-<h2>What teams can evaluate quickly</h2>
+<!-- ======================================================= -->
+<!-- DASHBOARD ALa GITSKINS (MURNI HTML/TABEL)               -->
+<!-- ======================================================= -->
+<div align="center">
+  <table style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 10px; width: 100%; max-width: 800px; padding: 20px; font-family: monospace;">
+    <tr>
+      <td width="40%" valign="top" style="border-right: 1px solid #30363d; padding-right: 20px;">
+        <font color="#8b949e" size="2">VISUAL MAP</font><br><br>
+        <div align="center">
+          <font color="#58a6ff" size="6">█████<br>██<br>██<br>█████</font><br>
+          <font color="#58a6ff" size="4">█████████████</font>
+        </div>
+      </td>
+      <td width="60%" valign="top" style="padding-left: 20px;">
+        <font color="#8b949e" size="2">SYSTEM INFO</font><br><br>
+        <font color="#8b949e" size="2">Subject..........</font> <font color="#ffffff" size="2">LUXXYHub</font><br>
+        <font color="#8b949e" size="2">Handle...........</font> <font color="#58a6ff" size="2">@luzxy49999ho</font><br>
+        <font color="#8b949e" size="2">Role.............</font> <font color="#ffffff" size="2">DON'T SPEAK A GAMBLING</font><br>
+        <font color="#8b949e" size="2">Status...........</font> <font color="#ffffff" size="2">Building | Learning | Shipping</font><br>
+        <font color="#8b949e" size="2">Languages........</font> <font color="#ffffff" size="2">Lua</font><br>
+        <font color="#8b949e" size="2">Repositories.....</font> <font color="#ffffff" size="2">2</font><br>
+        <font color="#8b949e" size="2">Contributions....</font> <font color="#ffffff" size="2">27</font><br>
+        <font color="#8b949e" size="2">Stars............</font> <font color="#ffffff" size="2">0</font><br>
+      </td>
+    </tr>
+  </table>
+</div>
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top"><h3>Role fit</h3><p>Product-minded developer · Lua</p></td>
-<td width="33%" valign="top"><h3>Public proof</h3><p>2 repositories · 0 stars</p></td>
-<td width="33%" valign="top"><h3>Momentum</h3><p>26 contributions · 6 active days</p></td>
-</tr>
+<br/>
+
+<!-- ======================================================= -->
+<!-- WHY I BUILD IN PUBLIC                                   -->
+<!-- ======================================================= -->
+<h2>Why I build in public</h2>
+
+<table style="width: 100%; border-collapse: collapse; text-align: center;">
+  <tr>
+    <td style="border: 1px solid #30363d; padding: 20px; width: 33%;">
+      <h3>Focus</h3>
+      <code>Lua</code>
+    </td>
+    <td style="border: 1px solid #30363d; padding: 20px; width: 33%;">
+      <h3>Proof</h3>
+      <p>2 public<br>repositories ·<br>0 stars</p>
+    </td>
+    <td style="border: 1px solid #30363d; padding: 20px; width: 33%;">
+      <h3>Contribution</h3>
+      <p>26 contributions<br>· 6 active days</p>
+    </td>
+  </tr>
 </table>
 
-<p><sub>DON'T SPEAK A GAMBLING</sub></p>
+<div align="center">
+  <p><em>DON'T SPEAK A GAMBLING</em></p>
+</div>
 
-<h2>Proof at a glance</h2>
+<br/>
 
-<table width="100%">
-<tr>
-<td width="25%" align="center"><strong>2</strong><br /><sub>Repositories</sub></td>
-<td width="25%" align="center"><strong>0</strong><br /><sub>Stars</sub></td>
-<td width="25%" align="center"><strong>26</strong><br /><sub>Contributions</sub></td>
-<td width="25%" align="center"><strong>0</strong><br /><sub>Followers</sub></td>
-</tr>
+<!-- ======================================================= -->
+<!-- OPEN SOURCE TOOLBOX (TERMINAL LUA)                      -->
+<!-- ======================================================= -->
+<h2>Open-source toolbox</h2>
+
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace;">
+  <font color="#8b949e">luzxy49999ho@github ~ $ toolbox --list</font><br><br>
+  <div style="background-color: #161b22; padding: 10px; border-radius: 6px; border: 1px solid #30363d;">
+    <font color="#8b949e">luzxy49999ho@github:-$ ls skills/</font><br>
+    <span style="background-color: #21262d; color: #c9d1d9; padding: 2px 8px; border-radius: 4px; font-size: 12px;">Lua</span>
+  </div>
+</div>
+
+<br/>
+
+| **Lua** |
+| :--- |
+| <h2>100%</h2> |
+
+<br/>
+
+<!-- ======================================================= -->
+<!-- IDENTITY, WITH SIGNAL & MINI GAME HUGS                  -->
+<!-- ======================================================= -->
+<h2>Identity, with signal</h2>
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 1px solid #30363d; padding: 20px; width: 60%;">
+      <h3>DON'T SPEAK A GAMBLING</h3>
+      <p><b>Focus:</b> <code>Lua</code></p>
+      <p>Thoughtful collaboration, ambitious products, and useful open source.</p>
+    </td>
+    <td style="border: 1px solid #30363d; padding: 20px; width: 40%; background-color: #0d1117;">
+      <span style="background-color: #30363d; padding: 4px 8px; border-radius: 12px; font-size: 12px; color: white;">LIVE SIGNAL</span><br><br>
+      <b>2</b> repos<br>
+      <b>0</b> stars<br>
+      <b>26</b> contributions<br>
+      <b>0</b> followers
+    </td>
+  </tr>
 </table>
 
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=luxxy49999ho&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F341011506%3Fv%3D4&v=recruiter-stats-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stats?username=luxxy49999ho&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F341011506%3Fv%3D4&v=recruiter-stats-1&mode=dark" width="100%" alt="LUXXYHub GitHub proof metrics" />
-</picture>
-</p>
+<br/><br/>
 
-<h2>Selected work</h2>
+<!-- ======================================================= -->
+<!-- TERMINAL MINI GAME: HUGS 🫂 (BANYAK HUGS)               -->
+<!-- ======================================================= -->
+<h2>Terminal Mini-Game: Hugs Protocol</h2>
 
-<table width="100%">
-<tr>
-<td width="58%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=luxxy49999ho&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F341011506%3Fv%3D4&repos=luxxy49999ho%2FLuxxy49999ho%2Cluxxy49999ho%2FSCRIPT-OF-LUXXY&v=recruiter-projects-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=luxxy49999ho&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F341011506%3Fv%3D4&repos=luxxy49999ho%2FLuxxy49999ho%2Cluxxy49999ho%2FSCRIPT-OF-LUXXY&v=recruiter-projects-1&mode=dark" width="100%" alt="LUXXYHub selected projects" />
-</picture>
-</td>
-<td width="42%" valign="top">
-<h3><a href="https://github.com/Luxxy49999ho/Luxxy49999ho">Luxxy49999ho</a></h3>
-<p>A selected public project.</p>
-<p><sub>⭐ 0 · 🍴 0</sub></p>
-<p><a href="https://github.com/Luxxy49999ho/Luxxy49999ho">Read the repository →</a></p>
-</td>
-</tr>
-</table>
+```bash
+luzxy49999ho@github ~ $ ./play_hugs.sh --infinite
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top"><h3><a href="https://github.com/Luxxy49999ho/SCRIPT-OF-LUXXY">SCRIPT-OF-LUXXY</a></h3><p>A selected public project.</p><p><sub>Lua · ⭐ 0</sub></p></td>
-</tr>
-</table>
+[SYSTEM] Initializing Hug Protocol v3.0...
+[SYSTEM] Loading affection modules... [100%]
+[SYSTEM] Warning: High levels of love detected!
 
-<h2>Technical toolkit</h2>
+> Player 1 hugs Player 2 🫂 (+10 XP)
+> Player 3 hugs Player 4 🫂 (+10 XP)
+> Player 2 hugs Player 3 🫂 (+10 XP)
+> Player 4 hugs Player 1 🫂 (+10 XP)
 
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=luxxy49999ho&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F341011506%3Fv%3D4&v=recruiter-stack-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stack?username=luxxy49999ho&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F341011506%3Fv%3D4&v=recruiter-stack-1&mode=dark" width="100%" alt="LUXXYHub technology stack" />
-</picture>
-</p>
+[Incoming Transmission]
+🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂
+🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂
+🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂
 
-<table width="100%">
-<tr>
-<td width="100%" align="center"><strong>Lua</strong><br /><sub>100% of public code</sub></td>
-</tr>
-</table>
+> WARNING: Server is overloaded with HUGS! 🤗
+> Sending hugs to all profile visitors... 
 
-<h2>Consistency signal</h2>
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=luxxy49999ho&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F341011506%3Fv%3D4&v=recruiter-heatmap-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/heatmap?username=luxxy49999ho&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F341011506%3Fv%3D4&v=recruiter-heatmap-1&mode=dark" width="100%" alt="LUXXYHub contribution activity" />
-</picture>
-</p>
-
-<hr />
-
-<table width="100%">
-<tr>
-<td width="62%" valign="middle"><h2>Let’s talk about the next build</h2><p>Open to thoughtful teams, ambitious products, and useful engineering work.</p></td>
-<td width="38%" valign="middle" align="right"><a href="https://github.com/luxxy49999ho">GitHub</a></td>
-</tr>
-</table>
-
-<p align="center"><sub>LUXXYHub · recruiter-ready profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+[STATUS] GAME OVER. YOU ARE LOVED. ❤️
