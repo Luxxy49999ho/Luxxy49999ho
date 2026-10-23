@@ -1,8 +1,7 @@
 <!-- ============================================================== -->
-<!-- 1. BANNER GRADIENT (MERAH, OREN, KUNING) & TEKS BERJALAN       -->
+<!-- 1. BANNER GRADIENT (MERAH, OREN, KUNING)                       -->
 <!-- ============================================================== -->
 <div align="center">
-  <!-- Warna dipaksa menggunakan Hex Code agar pasti Merah-Oren-Kuning -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,50:FFA500,100:FFFF00&height=200&section=header&text=LUXXYHub&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Product-minded%20Developer&descAlignY=55&descSize=20" width="100%" />
   <br>
   <a href="https://github.com/luxxy49999ho">
@@ -13,36 +12,29 @@
 <br>
 
 <!-- ============================================================== -->
-<!-- 2. SYSTEM INFO PREMIUM (FOTO PROFIL + TERMINAL MENGETIK)       -->
+<!-- 2. SYSTEM INFO (LAYOUT AMAN & TERPUSAT)                        -->
 <!-- ============================================================== -->
 <h2 align="center">⚡ System_Info</h2>
 
 <div align="center">
-  <table>
-    <tr>
-      <!-- KOLOM KIRI: FOTO PROFIL DENGAN BINGKAI NEON -->
-      <td align="center" width="40%">
-        <img src="https://github.com/luxxy49999ho.png" width="160" style="border-radius: 50%; border: 3px solid #FF8C00;" alt="LUXXYHub Avatar" />
-        <br><br>
-        <img src="https://img.shields.io/badge/STATUS-ONLINE-00FF00?style=for-the-badge&logo=statuspage&logoColor=black" alt="Status" />
-      </td>
-      
-      <!-- KOLOM KANAN: TERMINAL MENGETIK OTOMATIS -->
-      <td align="left" width="60%">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=500&color=FF8C00&vCenter=true&multiline=true&width=450&height=180&lines=%3E+Subject.......%3A+LUXXYHub;%3E+Handle........%3A+%40luxxy49999ho;%3E+Role..........%3A+Product-minded+Dev;%3E+Status........%3A+Building+%7C+Shipping;%3E+Languages.....%3A+Lua+(100%25);%3E+Repositories..%3A+2" alt="Terminal Text" />
-      </td>
-    </tr>
-  </table>
+  <!-- Foto Profil -->
+  <img src="https://github.com/luxxy49999ho.png" width="150" alt="LUXXYHub Avatar" style="border-radius: 50%;" />
+  <br><br>
+  
+  <!-- Animasi Teks Terminal (Menggunakan blockquote agar rapi) -->
+  <a href="https://github.com/luxxy49999ho">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=500&color=FF8C00&vCenter=true&multiline=true&width=450&height=180&lines=%3E+Subject.......%3A+LUXXYHub;%3E+Handle........%3A+%40luxxy49999ho;%3E+Role..........%3A+Product-minded+Dev;%3E+Status........%3A+Building+%7C+Shipping;%3E+Languages.....%3A+Lua+(100%25);%3E+Repositories..%3A+2" alt="Terminal Text" />
+  </a>
 </div>
 
 <br><br>
 
 <!-- ============================================================== -->
-<!-- 3. MINI GAMES AUTO-PLAY (ULAR REAL-TIME & MATRIX CODING)       -->
+<!-- 3. MINI GAMES AUTO-PLAY (ULAR & CODING MATRIX)                 -->
 <!-- ============================================================== -->
 <h2 align="center">🕹️ Terminal_Mini-Games [AUTO-PLAY]</h2>
 
-<!-- GAME 1: ULAR (SNAKE) - Memakan kotak kontribusi asli kamu -->
+<!-- GAME 1: ULAR (SNAKE) -->
 <p align="center"><b>[GAME 1: SNAKE_PROTOCOL]</b></p>
 <div align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Game" width="100%" />
@@ -50,11 +42,10 @@
 
 <br>
 
-<!-- GAME 2: CODING MATRIX (Karena SVG mentah diblokir, kita pakai GIF premium) -->
+<!-- GAME 2: CODING ANIMATION (Ukuran dibatasi agar tidak raksasa) -->
 <p align="center"><b>[GAME 2: CODING_MATRIX.EXE]</b></p>
 <div align="center">
-  <!-- GIF Animasi Koding Bergaya Hacker/Cyberpunk -->
-  <img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" width="100%" style="border-radius: 10px; border: 2px solid #FF8C00;" alt="Coding Animation" />
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="60%" style="max-width: 500px; border-radius: 10px; border: 2px solid #FF8C00;" alt="Coding Animation" />
 </div>
 
 <br><br>
@@ -65,18 +56,15 @@
 <h2 align="center">📊 Live_Metrics</h2>
 
 <div align="center">
-  <!-- Kartu Statistik Warna Menyala (Tema Radical) -->
   <img src="https://github-readme-stats.vercel.app/api?username=luxxy49999ho&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF8C00&icon_color=FF0000&text_color=FFFF00" width="48%" alt="Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luxxy49999ho&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=FFFF00" width="48%" alt="Top Languages" />
 </div>
 <br>
 <div align="center">
-  <!-- Streak Stats -->
   <img src="https://streak-stats.demolab.com?user=luxxy49999ho&theme=radical&hide_border=true&background=0D1117&ring=FF0000&fire=FFA500&currStreakNum=FFFF00&sideNums=ffffff&currStreakLabel=FF8C00" width="100%" alt="Streak Stats" />
 </div>
 <br>
 <div align="center">
-  <!-- Profile Summary Card (Sangat Mewah & Modern) -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=luxxy49999ho&theme=radical" width="100%" alt="Profile Summary" />
 </div>
 
